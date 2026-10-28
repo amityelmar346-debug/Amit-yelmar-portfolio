@@ -498,3 +498,26 @@ footer p {
 .resume-btn:hover {
     background-color: #0056b3;
 }
+
+/* Navigation links in one line */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+}
+
+.menu-toggle {
+    display: none;
+}
